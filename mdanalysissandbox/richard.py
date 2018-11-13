@@ -20,4 +20,4 @@ def count_names(ag, name):
     count : int
       the number of atoms with this name
     """
-    return len(ag[ag.names == name])
+    return len(ag[ag.names == name]) + 1
